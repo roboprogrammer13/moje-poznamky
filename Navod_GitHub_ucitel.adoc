@@ -1,0 +1,76 @@
+# GitHub Classroom - Návod pro učitele
+
+## Krok 1: Vytvoření zadání (Assignment)
+
+1. Jdi na [classroom.github.com](https://classroom.github.com)
+2. Vyber svou třídu (organization)
+3. Klikni na **"New assignment"**
+4. Vyplň:
+   - **Assignment title**: "Úkol 1 - Práce s listy"
+   - **Deadline**: nastav podle potřeby
+   - **Repository visibility**: Private (doporučeno)
+5. V sekci **"Starter code"**:
+   - Můžeš přidat starter repository (vytvoř si ho předem s README a šablonou)
+   - NEBO nech prázdné - žáci začnou s prázdným repo
+6. V sekci **"Grading and feedback"**:
+   - Zapni "Enable feedback pull requests" (pomůže ti s komentováním)
+7. Klikni **"Create assignment"**
+
+## Krok 2: Pozvání žáků
+
+Po vytvoření zadání dostaneš **invitation link**, např.:
+```
+https://classroom.github.com/a/AbCdEfGh
+```
+
+Tento link pošli žákům:
+- Emailem
+- Přes Google Classroom
+- MS Teams
+- Nebo jen napiš na tabuli
+
+## Krok 3: Co se stane, když žák klikne na link
+
+1. Přihlásí se do GitHubu (nebo si vytvoří účet)
+2. GitHub Classroom mu automaticky vytvoří **vlastní kopii** repozitáře
+   - Název bude např. `ukol-1-prace-s-listy-jmeno-zaka`
+3. Žák má svůj vlastní prostor na práci
+
+## Krok 4: Kontrola odevzdaných prací
+
+1. V GitHub Classroom → vyber své zadání
+2. Uvidíš seznam žáků a jejich repozitářů
+3. Klikni na repozitář žáka
+4. Můžeš:
+   - Prohlížet jeho kód
+   - Přidávat komentáře přímo do kódu
+   - Vytvořit Issue s feedback
+   - Stáhnout si jeho soubory
+
+## Tipy pro začátek
+
+✅ **Pro první úkol vytvoř starter repository s:**
+- README.md s instrukcemi pro žáky
+- Šablonou souboru (např. `ukol_listy.py`)
+- .gitignore pro Python
+
+✅ **Nauč žáky nahrávat soubory přes web:**
+- Otevřít svůj repozitář
+- "Add file" → "Upload files"
+- Nahrát .py soubor z počítače nebo Colabu
+
+✅ **Později můžeš učit git příkazy** (clone, commit, push)
+
+## Časté otázky
+
+**Q: Vidí žáci navzájem své kódy?**
+A: Ne, pokud máš repozitáře nastavené jako Private.
+
+**Q: Musím umět git příkazy?**
+A: Pro začátek ne - všechno jde udělat myší na webu.
+
+**Q: Jak žáci stáhnou soubor z Colabu?**
+A: File → Download → .py soubor → pak upload na GitHub
+
+**Q: Můžu použít stejné zadání pro více tříd?**
+A: Ano, stačí vytvořit více classrooms nebo reusovat assignment.
